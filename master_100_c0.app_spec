@@ -1,0 +1,16 @@
+[db_app_spec,"master_100_c0.app_spec","1.0.0",master,
+ [{host,"c0"},
+  {vm_id,"master"},
+  {vm_dir,"master_100"}
+ ],
+ [{master,git_user,"joq62"},
+  {master,git_pw,"20Qazxsw20"},
+  {master,cl_dir,"cluster_config"},
+  {master,cl_file,"cluster_info.hrl"},
+  {master,app_specs_dir,"app_specs"},
+  {master,service_specs_dir,"service_specs"},
+  {master,app_spec,"master_100_c0.app_spec"}
+ ],
+ ["master_100.service_spec"
+ ]
+].
