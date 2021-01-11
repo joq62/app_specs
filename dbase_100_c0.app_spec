@@ -8,7 +8,8 @@
   {dbase,cl_dir,"cluster_config"},
   {dbase,cl_file,"cluster_info.hrl"},
   {dbase,app_specs_dir,"app_specs"},
-  {dbase,service_specs_dir,"service_specs"}
+  {dbase,service_specs_dir,"service_specs"},
+  {dbase,dbase_nodes,['dbase@c0','dbase@c1','dbase@c2']}
  ],
  ["dbase_100.service_spec"
  ]

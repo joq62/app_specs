@@ -1,0 +1,9 @@
+[db_app_spec,"syslog_100_c2.app_spec","1.0.0",worker,
+ [{host,"c2"},
+  {vm_id,"syslog"},
+  {vm_dir,"syslog_100"}
+ ],
+ [],
+ ["syslog_100.service_spec"
+ ]
+].
