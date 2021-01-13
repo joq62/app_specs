@@ -1,9 +1,16 @@
-[db_app_spec,"syslog_100_c1.app_spec","1.0.0",worker,
- [{host,"c1"},
-  {vm_id,"syslog"},
-  {vm_dir,"syslog_100"}
- ],
- [],
- ["syslog_100.service_spec"
- ]
+[db_app_spec,
+	{app_id,"syslog_100_c1.app_spec"},
+	{app_vsn,"1.0.0"},
+	{type,worker},
+	{host,"c1"},
+        {vm_id,syslog},
+        {vm_dir,syslog_100},
+	{cookie,"abc"},
+        {services,[
+		[{service_id,"syslog"},
+		{service_vsn,"1.0.0"},
+		{git_path,"https://github.com/joq62/log_src.git"},
+		{start_cmd,{application,start,[syslog]}},
+		{env_vars,[]}]]}
+
 ].

@@ -1,8 +1,16 @@
-[db_app_spec,"calc_a_100.app_spec","1.0.0",worker,
- [{host,"c0"},
-  {vm_id,any},
-  {vm_dir,any}
- ],
- [],
- ["calc_100.service_spec"
-]].
+[db_app_spec,
+	{app_id,"calc_a_100.app_spec"},
+	{app_vsn,"1.0.0"},
+	{type,worker},
+	{host,"c0"},
+        {vm_id,any},
+        {vm_dir,any},
+	{cookie,"abc"},
+        {services,[
+		[{service_id,"calc"},
+		{service_vsn,"1.0.0"},
+		{git_path,"https://github.com/joq62/calc_app_spec.git"},
+		{start_cmd,{application,start,[calc]}},
+		{env_vars,[]}]]}
+
+].
