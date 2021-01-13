@@ -2,7 +2,7 @@
 	{app_id,"calc_b_100.app_spec"},
 	{app_vsn,"1.0.0"},
 	{type,worker},
-	{host,"c0"},
+	{host,"c1"},
         {vm_id,any},
         {vm_dir,any},
 	{cookie,"abc"},
