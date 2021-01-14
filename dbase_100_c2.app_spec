@@ -1,7 +1,7 @@
 [db_app_spec,
 	{app_id,"dbase_100_c2.app_spec"},
 	{app_vsn,"1.0.0"},
-	{type,worker},
+	{type,dbase},
 	{host,"c0"},
         {vm_id,"dbase"},
         {vm_dir,"dbase_100"},

@@ -1,0 +1,16 @@
+[db_app_spec,
+	{app_id,"control_100_c2.app_spec"},
+	{app_vsn,"1.0.0"},
+	{type,control},
+	{host,"c2"},
+        {vm_id,control},
+        {vm_dir,control_100},
+	{cookie,"abc"},
+        {services,[
+		[{service_id,"control"},
+		{service_vsn,"1.0.0"},
+		{git_path,"https://github.com/joq62/control_src.git"},
+		{start_cmd,{application,start,[control]}},
+		{env_vars,[]}]]}
+
+].

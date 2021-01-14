@@ -1,7 +1,7 @@
 [db_app_spec,
 	{app_id,"syslog_100_c0.app_spec"},
 	{app_vsn,"1.0.0"},
-	{type,worker},
+	{type,log},
 	{host,"c0"},
         {vm_id,syslog},
         {vm_dir,syslog_100},

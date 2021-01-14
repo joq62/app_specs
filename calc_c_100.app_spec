@@ -1,7 +1,7 @@
 [db_app_spec,
 	{app_id,"calc_c_100.app_spec"},
 	{app_vsn,"1.0.0"},
-	{type,worker},
+	{type,service},
 	{host,"c2"},
         {vm_id,any},
         {vm_dir,any},
