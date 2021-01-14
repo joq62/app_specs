@@ -8,7 +8,7 @@
 	{cookie,"abc"},
         {services,[[{service_id,"dbase"},
 	            {service_vsn,"1.0.0"},
-		    {git_path,"https://github.com/joq62/dbase.git"},
+		    {git_path,"https://github.com/joq62/dbase_application.git"},
 		    {start_cmd,{application,start,[dbase]}},
 		    {env_vars,[{dbase,git_user,"joq62"},
 				{dbase,git_pw,"20Qazxsw20"},

@@ -9,7 +9,7 @@
         {services,[
 		[{service_id,"syslog"},
 		{service_vsn,"1.0.0"},
-		{git_path,"https://github.com/joq62/log_src.git"},
+		{git_path,"https://github.com/joq62/log_application.git"},
 		{start_cmd,{application,start,[syslog]}},
 		{env_vars,[]}]]}
 
