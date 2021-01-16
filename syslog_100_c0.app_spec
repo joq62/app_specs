@@ -3,8 +3,8 @@
 	{app_vsn,"1.0.0"},
 	{type,log},
 	{host,"c0"},
-        {vm_id,syslog},
-        {vm_dir,syslog_100},
+        {vm_id,"syslog"},
+        {vm_dir,"syslog_100"},
 	{cookie,"abc"},
         {services,[
 		[{service_id,"syslog"},
